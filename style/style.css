@@ -1,0 +1,42 @@
+body, html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.parallax {
+  background-image: url(../img/aoi.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2 {
+  background-image: url(../img/misaki.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text{
+  height: 30vh;
+  background: black;
+  opacity: 1;
+  position: relative;
+  
+}
+
+ .parallax h1 {
+  text-align: center;
+  margin: 0 auto;
+  font-size:5em;
+  color: white;
+  opacity: 0.5;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
